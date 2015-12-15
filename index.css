@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    font-family: YuGothic, "遊ゴシック","メイリオ",Meiryo,"ヒラギノ角ゴ Pro W3ご", "Hiragino Kaku Gothic Pro", sans-serif;
+    background-color:#ddd;
+    font-size: 14px;
+}
+
+header{
+    background-image: url("bd.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 200px;
+    padding-top: 200px;
+    text-align: center;
+    letter-spacing: 0.15em;
+    color: #fff;
+    text-shadow: 1px 1px 0px #000;
+}
+
+.container{
+    max-width: 800px;
+    margin: -100px auto 0;
+    background-color: #fff;
+}
+
+section{
+    padding: 10px 20px;
+}
+
+section h2{
+    padding: 10px 0 20px 0;
+    text-align: center;
+    letter-spacing: 0.15em;
+}
